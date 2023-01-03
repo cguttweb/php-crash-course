@@ -1,7 +1,7 @@
 <?php 
 // print out strings, numbers etc and can have multiple values
 // echo 'Hello World testing';
-
+echo 'This is my default index page for my php crash course. Let\'s learn some php.'
 // shorthand for echo - <?= 'content here
 
 
