@@ -1,5 +1,5 @@
 # PHP Crash Course
 
-Traversy Media on youtube
+Repo setup as I attempt to learn some PHP before looking at Laravel
 
-- Need XAMPP to run it locally try live reload extension and see if it works
+Traversy Media on [youtube](https://www.youtube.com/watch?v=BUCiSSyIGGU&ab_channel=TraversyMedia)
