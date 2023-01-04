@@ -7,11 +7,11 @@
 */
 
 // Must have session started
-
+session_start();
 
 if (isset($_POST['submit'])) {
-  $username = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_SPECIAL_CHARS);
-  $password = $_POST['password'];
+  $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_SPECIAL_CHARS);
+  $password = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_SPECIAL_CHARS);
 
   if ($username == 'chloe' && $password == 'test') {
     $_SESSION['username'] = $username;
@@ -22,8 +22,6 @@ if (isset($_POST['submit'])) {
   }
 }
 ?>
-
-<!-- <a href="<?php echo $_SERVER['PHP_SELF'] ?>?name=Chloe&age=30">Click</a> -->
 
 <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
   <div>
