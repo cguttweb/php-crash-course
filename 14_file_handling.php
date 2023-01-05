@@ -11,7 +11,7 @@ $file = 'extras/users.txt';
 
 if (file_exists($file)) {
   // echo readFile($file);
-  // r = read also write etc
+  // r = read mode also write etc
   $handle = fopen($file, 'r');
   $contents = fread($handle, filesize($file));
   fclose($handle);
