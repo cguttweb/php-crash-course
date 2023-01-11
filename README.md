@@ -2,4 +2,4 @@
 
 Repo setup as I attempt to learn some PHP before looking at Laravel
 
-Traversy Media on [youtube](https://www.youtube.com/watch?v=BUCiSSyIGGU&ab_channel=TraversyMedia)
+Traversy Media on [youtube](https://www.youtube.com/watch?v=BUCiSSyIGGU&ab_channel=TraversyMedia) with a simple feedback app using PHP and MYSQL
